@@ -1,4 +1,8 @@
 # Some Physical (and Unphysical) Simulations
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brettrhenderson/PySims/master)
+<p align="center">
+  <img src="images/logo.png" width=400/>
+</p>
 
 This repository is a collection of simulations and animations in a couple of domains.
 Most of them sprang out out of a desire to gain a more practical understanding of
@@ -175,6 +179,7 @@ jupyter notebook
 
 and then clicking on the notebook in the navigator that appears in your browser, so
 long as you have your environment configured as described [above](#installation).
+Alternatively, the [notebook](#) can be run on Binder.
 
 This notebook covers Kinetic Molecular Theory of Gases. It includes plots of the
 Maxwell-Boltzmann distribution for different temperatures and particle masses:
