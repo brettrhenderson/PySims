@@ -4,7 +4,8 @@
   <img src="images/logo.png" width=400/>
 </p>
 
-This repository is a collection of simulations and animations in a couple of domains.
+This repository is a collection of simulations and animations in a couple of domains--namely,
+[celestial mechanics](#gravity), [chemistry](#gases), and [just plain fun](#random).
 Most of them sprang out out of a desire to gain a more practical understanding of
 how physical systems can be simulated in silico, which I felt would better ground
 my research in computational chemistry. Though the systems presented here are incredibly
@@ -16,10 +17,9 @@ The **gases** simulations are derived from code written by Jake Vanderplas
 (email: vanderplas@astro.washington.edu). Specifically, the `balls_in_box.py` file
 contains the original **ParticleBox** class (modified only to remove gravity) from
 Jake's [animation tutorial](https://jakevdp.github.io/blog/2012/08/18/matplotlib-animation-tutorial/)
-as well as the same basic animation code for the box itself. Calculation of the [speed
-distribution](#the-maxwell-boltzmann-distribution) and animation of the histogram was added.
-Jake's original BSD License statement has been left at the top of the `balls_in_box.py`
-file.  
+as well as the same basic animation code for the box itself. Calculation of the speed distribution
+and animation of the histogram was added. Jake's original BSD License statement has
+been left at the top of the `balls_in_box.py` file.  
 
 I owe the idea for plotting the the [M-B distribution](#gases)
 as a histogram under the ParticleBox simulation to this [gif](https://en.wikipedia.org/wiki/Maxwell%E2%80%93Boltzmann_distribution#/media/File:Simulation_of_gas_for_relaxation_demonstration.gif)
